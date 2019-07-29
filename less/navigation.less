@@ -1,0 +1,26 @@
+nav {
+    .flexbox(flex, center, center, column);
+    
+    background: @teal;
+    color:@lt-text;
+   margin-bottom: 1%;
+
+   .logo{
+       margin: 2%, 0;
+       padding-top: 1%;
+
+   }//closes nav
+   .links{
+    width: 100%;
+    .flexbox(flex, space-around, center, row);
+    border-bottom: 2px solid @navy;
+    a {
+        text-decoration: none;
+        font-size: 1.4rem;
+        padding: 3%;
+        color: @lt-text;
+    }
+   }//closes links
+
+
+} //closes nav

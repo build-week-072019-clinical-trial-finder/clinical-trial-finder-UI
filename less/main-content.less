@@ -1,0 +1,124 @@
+header {
+    max-width: 100%;
+    border-bottom: 2px solid @navy;
+    padding: 15%;
+    margin: 0 auto;
+    background: @lt-blue;
+    .header{
+        .flexbox(flex, center, center, column);
+        
+    }
+    h1{
+        text-align: center;
+        padding-bottom: 4%;
+    }
+    p{
+        text-align: center;
+    }
+    button{
+        color: @lt-text;
+        background: @button;
+        border: 2px solid @navy;
+        padding: 2% 6%;
+        font-size: 2rem;
+    }
+} //closes header
+
+.info-cards{
+    .flexbox(flex, center, center, column);    
+    margin: 2% 0;
+
+    .cards{
+        width: 80%;
+        .flexbox(flex, center, center, column);
+        border: 2px solid gray;
+        margin-top: 2%;
+        padding: 2%;
+        background: white;
+        &:hover{
+            transform: scale(1.1);
+            box-shadow: 5px 10px 5px @navy;
+            margin: 8%, 0;
+        }
+        
+        img{
+            max-width: 100%;
+            height: auto;
+            border: 1px solid grey;
+        }
+    }//closes cards
+
+    p{
+        border-top: 2px solid black;
+        width:100%;
+        text-align: center;
+        padding: 2%;
+        background: @navy;
+        color: white;
+    }
+} //closes info- cards
+
+.success-stories{
+    .flexbox(flex, center, center, column);
+    // flex-direction: column;
+    background: brown;
+    color: white;
+    margin: 2% 0;
+
+    h2{
+        padding: 3%, 0;
+    }
+    .stories{
+        width: 80%;
+        .flexbox(flex, center, space-between, column);
+
+        img{
+            border-radius: 50%;
+            align-self: center;
+        }
+        p{
+            font-size: 1.8rem;
+        }     
+        h3{
+            font-size: 2rem;
+            text-align: center;
+        }   
+        
+    }//closes stories
+
+    .mobile-hidden{
+        display: none;
+    }
+    .name{
+        text-align: right;
+        font-style: italic;
+    }
+} //closes success-stories
+
+.features{
+    .flexbox(flex, center, center, column);
+    width: 90%;
+    margin: 0 auto;
+
+    h3{
+        text-align: center;
+    }
+    .feature{
+        .flexbox(flex, center, center, column);
+        border-bottom: 2px solid @navy;
+        margin: 2% 0;
+        border: 1px solid red;
+        .illus{
+            // .flexbox(flex, )
+            border: 1px solid blue;
+        }
+        img{
+            margin-right: 5%;
+            border: 1px solid green;
+        }
+        .feat-text{
+            border: 1px solid orange;
+            width: 60%;
+        }
+    }//closes feature
+}//closes features
