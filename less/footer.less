@@ -1,0 +1,20 @@
+footer{
+    text-align: center;
+    color: @lt-text;
+    background: @teal;
+
+    .list{
+        width: 100%;
+        .flexbox(flex, space-around, center, row);
+        
+        a{text-decoration: none;
+            font-size: 1.4rem;
+            color: @lt-text;
+
+           &:hover{
+            text-decoration: underline;
+            }
+        }//closes li
+        // }//closes a
+       }//closes links    
+}//closes footer

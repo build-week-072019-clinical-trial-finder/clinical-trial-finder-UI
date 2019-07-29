@@ -21,7 +21,13 @@ header {
         border: 2px solid @navy;
         padding: 2% 6%;
         font-size: 2rem;
-    }
+        
+        &:hover{
+        transform: scale(1.2);
+        box-shadow: 5px 10px 5px @navy;
+        margin: 8%, 0;
+        }
+    }//closes button
 } //closes header
 
 .info-cards{
@@ -60,7 +66,6 @@ header {
 
 .success-stories{
     .flexbox(flex, center, center, column);
-    // flex-direction: column;
     background: brown;
     color: white;
     margin: 2% 0;
@@ -106,25 +111,63 @@ header {
         .flexbox(flex, center, center, column);
         border-bottom: 2px solid @navy;
         margin: 2% 0;
-        border: 1px solid red;
+        // border: 1px solid red;
         .feat-contain{
             .flexbox(flex, space-between, center, row);
             border: 1px solid yellow;
         }
         .illus{
             width: 40%;
-            border: 1px solid blue;
+            // border: 1px solid blue;
         }
         img{
             margin-right: 5%;
             max-width: 100%;
             height: auto;
-            border: 1px solid green;
+            // border: 1px solid green;
         }
         .feat-text{
-            border: 1px solid orange;
+            // border: 1px solid orange;
             width: 60%;
             padding: 3%;
         }
     }//closes feature
 }//closes features
+
+.contact{
+    // border: 1px solid green;
+    background: @navy;
+    color: white;
+    margin-bottom: 2%;
+
+    .contact-top{
+        .flexbox(flex, space-between, center, row);
+        
+        .list{
+            line-height: 1.5;
+            font-size: 1.4rem;
+            padding: 3%;
+
+            h3{
+                border-bottom: 1px solid grey;
+            }
+        }
+    }//closes top-content
+
+    .subscription{
+        text-align: center;
+
+        button{
+            background: @button;
+            color: white;
+            border: 1px solid white;
+
+            &:hover{
+                transform: scale(1.2);
+            box-shadow: 5px 10px 5px @navy;
+            margin: 8%, 0;
+            }
+        }
+    }
+}//closes contact
+

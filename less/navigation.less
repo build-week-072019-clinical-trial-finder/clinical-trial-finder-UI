@@ -7,20 +7,21 @@ nav {
 
    .logo{
        margin: 2%, 0;
-       padding-top: 1%;
-
-   }//closes nav
+       padding-top: 1%;  
+   }
    .links{
     width: 100%;
     .flexbox(flex, space-around, center, row);
     border-bottom: 2px solid @navy;
+
     a {
-        text-decoration: none;
-        font-size: 1.4rem;
-        padding: 3%;
         color: @lt-text;
+        text-decoration: none;
+        padding: 2%;
+        font-size: 1.5rem;
+        &:hover{
+            text-decoration: underline;
+        }
     }
    }//closes links
-
-
-} //closes nav
+ }//closes nav

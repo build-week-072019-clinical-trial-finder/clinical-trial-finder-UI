@@ -194,10 +194,13 @@ nav .links {
   border-bottom: 2px solid #222E50;
 }
 nav .links a {
-  text-decoration: none;
-  font-size: 1.4rem;
-  padding: 3%;
   color: white;
+  text-decoration: none;
+  padding: 2%;
+  font-size: 1.5rem;
+}
+nav .links a:hover {
+  text-decoration: underline;
 }
 header {
   max-width: 100%;
@@ -225,6 +228,11 @@ header button {
   border: 2px solid #222E50;
   padding: 2% 6%;
   font-size: 2rem;
+}
+header button:hover {
+  transform: scale(1.2);
+  box-shadow: 5px 10px 5px #222E50;
+  margin: 8%, 0;
 }
 .info-cards {
   display: flex;
@@ -316,7 +324,6 @@ header button {
   flex-direction: column;
   border-bottom: 2px solid #222E50;
   margin: 2% 0;
-  border: 1px solid red;
 }
 .features .feature .feat-contain {
   display: flex;
@@ -327,16 +334,65 @@ header button {
 }
 .features .feature .illus {
   width: 40%;
-  border: 1px solid blue;
 }
 .features .feature img {
   margin-right: 5%;
   max-width: 100%;
   height: auto;
-  border: 1px solid green;
 }
 .features .feature .feat-text {
-  border: 1px solid orange;
   width: 60%;
   padding: 3%;
+}
+.contact {
+  background: #222E50;
+  color: white;
+  margin-bottom: 2%;
+}
+.contact .contact-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.contact .contact-top .list {
+  line-height: 1.5;
+  font-size: 1.4rem;
+  padding: 3%;
+}
+.contact .contact-top .list h3 {
+  border-bottom: 1px solid grey;
+}
+.contact .subscription {
+  text-align: center;
+}
+.contact .subscription button {
+  background: #B80C09;
+  color: white;
+  border: 1px solid white;
+}
+.contact .subscription button:hover {
+  transform: scale(1.2);
+  box-shadow: 5px 10px 5px #222E50;
+  margin: 8%, 0;
+}
+footer {
+  text-align: center;
+  color: white;
+  background: #007991;
+}
+footer .list {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+footer .list a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: white;
+}
+footer .list a:hover {
+  text-decoration: underline;
 }
