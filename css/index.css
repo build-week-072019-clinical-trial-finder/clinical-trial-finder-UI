@@ -150,6 +150,9 @@ h2 {
   font-size: 3.2rem;
   padding-bottom: 10px;
 }
+h3 {
+  font-size: 2rem;
+}
 h4 {
   font-size: 2.5rem;
   padding-bottom: 10px;
@@ -286,7 +289,6 @@ header button {
   font-size: 1.8rem;
 }
 .success-stories .stories h3 {
-  font-size: 2rem;
   text-align: center;
 }
 .success-stories .mobile-hidden {
@@ -316,14 +318,25 @@ header button {
   margin: 2% 0;
   border: 1px solid red;
 }
+.features .feature .feat-contain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  border: 1px solid yellow;
+}
 .features .feature .illus {
+  width: 40%;
   border: 1px solid blue;
 }
 .features .feature img {
   margin-right: 5%;
+  max-width: 100%;
+  height: auto;
   border: 1px solid green;
 }
 .features .feature .feat-text {
   border: 1px solid orange;
   width: 60%;
+  padding: 3%;
 }
