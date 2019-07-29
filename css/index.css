@@ -157,6 +157,14 @@ h4 {
   font-size: 2.5rem;
   padding-bottom: 10px;
 }
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+a:hover {
+  text-decoration: underline;
+}
 p {
   line-height: 1.5;
   font-size: 1.6rem;
@@ -172,7 +180,7 @@ img {
   margin: 0 auto;
   background: #B9D6F2;
 }
-nav {
+.nav {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -180,12 +188,12 @@ nav {
   background: #007991;
   color: white;
   margin-bottom: 1%;
+  width: 100%;
 }
-nav .logo {
-  margin: 2%, 0;
-  padding-top: 1%;
+.nav h1 {
+  text-align: center;
 }
-nav .links {
+.nav .links {
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -193,13 +201,13 @@ nav .links {
   flex-direction: row;
   border-bottom: 2px solid #222E50;
 }
-nav .links a {
+.nav .links a {
   color: white;
   text-decoration: none;
   padding: 2%;
   font-size: 1.5rem;
 }
-nav .links a:hover {
+.nav .links a:hover {
   text-decoration: underline;
 }
 header {
@@ -330,7 +338,6 @@ header button:hover {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  border: 1px solid yellow;
 }
 .features .feature .illus {
   width: 40%;
@@ -360,8 +367,14 @@ header button:hover {
   font-size: 1.4rem;
   padding: 3%;
 }
+.contact .contact-top .list .links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
 .contact .contact-top .list h3 {
-  border-bottom: 1px solid grey;
+  text-decoration: grey underline;
 }
 .contact .subscription {
   text-align: center;
@@ -381,18 +394,10 @@ footer {
   color: white;
   background: #007991;
 }
-footer .list {
-  width: 100%;
+footer .links {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: row;
-}
-footer .list a {
-  text-decoration: none;
-  font-size: 1.4rem;
-  color: white;
-}
-footer .list a:hover {
-  text-decoration: underline;
+  padding: 2% 0;
 }

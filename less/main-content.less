@@ -112,9 +112,10 @@ header {
         border-bottom: 2px solid @navy;
         margin: 2% 0;
         // border: 1px solid red;
+    
         .feat-contain{
             .flexbox(flex, space-between, center, row);
-            border: 1px solid yellow;
+            // border: 1px solid yellow;
         }
         .illus{
             width: 40%;
@@ -147,9 +148,12 @@ header {
             line-height: 1.5;
             font-size: 1.4rem;
             padding: 3%;
-
+            
+            .links{
+            .flexbox(flex, flex-start, flex-start, column);
+            }
             h3{
-                border-bottom: 1px solid grey;
+                text-decoration: grey underline;
             }
         }
     }//closes top-content
