@@ -497,6 +497,13 @@ h2 {
   color: white;
   border: 1px solid white;
 }
+@media (min-width:1000px) {
+  .contact .subscription button {
+    font-size: 1.8rem;
+    width: 200px;
+    padding: 0.5%;
+  }
+}
 .contact .subscription button:hover {
   transform: scale(1.2);
   box-shadow: 5px 10px 5px #222E50;
