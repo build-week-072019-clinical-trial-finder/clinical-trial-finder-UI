@@ -133,6 +133,11 @@ html {
   font-size: 62.5%;
   box-sizing: border-box;
 }
+@media (min-width:1000px) {
+  html {
+    background: #222E50;
+  }
+}
 *,
 *:before,
 *after {
@@ -152,21 +157,32 @@ h5 {
 h1 {
   font-size: 4rem;
 }
+@media (min-width:1000px) {
+  h1 {
+    font-size: 4.8rem;
+  }
+}
 h2 {
   font-size: 3.2rem;
   padding-bottom: 10px;
 }
+@media (min-width:1000px) {
+  h2 {
+    font-size: 4rem;
+  }
+}
 h3 {
   font-size: 2rem;
 }
-h4 {
-  font-size: 2.5rem;
-  padding-bottom: 10px;
+@media (min-width:1000px) {
+  h3 {
+    font-size: 3rem;
+  }
 }
 a {
   color: white;
   text-decoration: none;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
 }
 a:hover {
   text-decoration: underline;
@@ -175,6 +191,11 @@ p {
   line-height: 1.5;
   font-size: 1.6rem;
   padding-bottom: 10px;
+}
+@media (min-width:1000px) {
+  p {
+    font-size: 2rem;
+  }
 }
 img {
   max-width: 100%;
@@ -216,7 +237,7 @@ img {
   color: white;
   text-decoration: none;
   padding: 2%;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 .nav .links a:hover {
   text-decoration: underline;
@@ -427,6 +448,13 @@ h2 {
   color: white;
   margin-bottom: 2%;
 }
+@media (min-width:1000px) {
+  .contact {
+    background: white;
+    color: #222E50;
+    font-size: 3rem;
+  }
+}
 .contact .contact-top {
   display: flex;
   justify-content: space-between;
@@ -446,6 +474,16 @@ h2 {
 }
 .contact .contact-top .list h3 {
   text-decoration: grey underline;
+}
+.contact .contact-top .list .contact-link a {
+  color: white;
+  font-size: 1.6rem;
+}
+@media (min-width:1000px) {
+  .contact .contact-top .list .contact-link a {
+    color: #222E50;
+    font-size: 2rem;
+  }
 }
 .contact .subscription {
   text-align: center;

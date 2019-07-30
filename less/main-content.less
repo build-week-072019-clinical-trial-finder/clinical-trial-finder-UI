@@ -198,6 +198,12 @@ h2{
     color: white;
     margin-bottom: 2%;
 
+    @media @desktop {
+        background: @lt-text;
+        color: @navy;
+        font-size: 3rem;
+    }
+
     .contact-top{
         .flexbox(flex, space-between, center, row);
         
@@ -211,6 +217,15 @@ h2{
             }
             h3{
                 text-decoration: grey underline;
+            }
+            .contact-link a{
+                color: @lt-text;
+                font-size: 1.6rem;
+
+                @media @desktop{
+                    color: @navy;
+                    font-size: 2rem;
+                }
             }
         }
     }//closes top-content
