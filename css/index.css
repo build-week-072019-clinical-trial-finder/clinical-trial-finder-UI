@@ -533,23 +533,57 @@ h2 {
 .backend {
   border: 1px solid red;
   width: 90%;
+  margin: 0 auto;
 }
 .backend .bdev {
   border: 1px solid blue;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .front-end {
   border: 1px solid green;
   width: 90%;
+  margin: 0 auto;
 }
 .front-end .fdev {
   border: 1px solid orange;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .ui-dev {
   border: 1px solid red;
   width: 90%;
+  margin: 0 auto;
 }
 .ui-dev .web-ui {
   border: 1px solid green;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ui-dev .web-ui .names {
+  font-size: 2rem;
+}
+.ui-dev .christine img {
+  transform: rotate(90deg);
+  max-width: 50%;
+  height: auto;
+  padding: 4%;
+  margin: 2%;
+  border: 2px solid #222E50;
+  border-radius: 10px;
+  background: white;
 }
 footer {
   text-align: center;

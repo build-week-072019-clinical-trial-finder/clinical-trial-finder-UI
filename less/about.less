@@ -1,26 +1,53 @@
 .backend{
     border: 1px solid red;
     width: 90%;
+    margin: 0 auto;
 
     .bdev{
         border: 1px solid blue;
+        width: 90%;
+        margin: 0 auto;
+        .flexbox(flex, center, center, column);
     }//closes bdev
 }//closes backend
 
 .front-end{
     border: 1px solid green;
     width: 90%;
+    margin: 0 auto;
 
     .fdev{
         border: 1px solid orange;
+        width: 90%;
+        margin: 0 auto;
+        .flexbox(flex, center, center, column);
     }//closes fdev
 }//closes front-end
 
 .ui-dev{
     border: 1px solid red;
     width: 90%;
+    margin: 0 auto;
 
     .web-ui{
         border: 1px solid green;
+        width: 90%;
+        margin: 0 auto;
+        .flexbox(flex, center, center, column); 
+        
+        .names{
+            font-size: 2rem;
+        }
     }
+    .christine img{
+        transform: rotate(90deg);
+        max-width: 50%;
+        height: auto;
+        padding: 4%;
+        margin: 2%;
+        border: 2px solid @navy;
+        border-radius: 10px;
+        background: @lt-text;
+        
+}//closes christine
 }//closes ui-dev
