@@ -530,6 +530,27 @@ h2 {
   box-shadow: 5px 10px 5px #222E50;
   margin: 8%, 0;
 }
+.backend {
+  border: 1px solid red;
+  width: 90%;
+}
+.backend .bdev {
+  border: 1px solid blue;
+}
+.front-end {
+  border: 1px solid green;
+  width: 90%;
+}
+.front-end .fdev {
+  border: 1px solid orange;
+}
+.ui-dev {
+  border: 1px solid red;
+  width: 90%;
+}
+.ui-dev .web-ui {
+  border: 1px solid green;
+}
 footer {
   text-align: center;
   color: white;
