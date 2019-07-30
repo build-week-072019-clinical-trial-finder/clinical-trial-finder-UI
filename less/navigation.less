@@ -4,6 +4,15 @@
     color:@lt-text;
     margin-bottom: 1%;
     width: 100%;
+
+    @media @desktop{
+        flex-direction: row;
+        margin: 0;
+    }
+
+    .logo{
+        width: 20%;
+    }
    
    h1{
        text-align: center;
@@ -12,6 +21,10 @@
     width: 100%;
     .flexbox(flex, space-around, center, row);
     border-bottom: 2px solid @navy;
+
+    @media @desktop{
+        border-bottom: none;
+     }
 
     a {
         color: @lt-text;

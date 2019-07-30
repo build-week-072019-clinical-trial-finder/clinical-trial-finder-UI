@@ -146,6 +146,7 @@ html {
 html,
 body {
   font-family: 'PT Sans Narrow', sans-serif;
+  color: #222E50;
 }
 h1,
 h2,
@@ -153,6 +154,7 @@ h3,
 h4,
 h5 {
   font-family: 'Work Sans', sans-serif;
+  color: #222E50;
 }
 h1 {
   font-size: 4rem;
@@ -222,6 +224,15 @@ img {
   margin-bottom: 1%;
   width: 100%;
 }
+@media (min-width:1000px) {
+  .nav {
+    flex-direction: row;
+    margin: 0;
+  }
+}
+.nav .logo {
+  width: 20%;
+}
 .nav h1 {
   text-align: center;
 }
@@ -232,6 +243,11 @@ img {
   align-items: center;
   flex-direction: row;
   border-bottom: 2px solid #222E50;
+}
+@media (min-width:1000px) {
+  .nav .links {
+    border-bottom: none;
+  }
 }
 .nav .links a {
   color: white;
@@ -248,6 +264,11 @@ header {
   padding: 15%;
   margin: 0 auto;
   background: #B9D6F2;
+}
+@media (min-width:1000px) {
+  header {
+    border-top: 4px solid #222E50;
+  }
 }
 header .header {
   display: flex;
