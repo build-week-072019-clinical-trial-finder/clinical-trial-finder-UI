@@ -1,102 +1,60 @@
-.backend{
+.backend, .front-end, .ui-dev{
     // border: 1px solid red;
     width: 90%;
     margin: 2% auto;
 
-    p{
-        padding: 2%;
-        margin: 2%;
-        border: 2px solid @lt-text;
-        background: @navy;
+    @media @tablet{
+        .flexbox(flex, space-around, center, row);
+        flex-wrap: wrap;
+    } 
+
+    h3{
         color: @lt-text;
-        font-size: 1.5rem;
-    }
-    
-
-    .bdev{
-        border: 2px solid @navy;
-        width: 90%;
-        margin: 2% auto;
-        .flexbox(flex, center, center, column);
-
-        h3{
-            color: @lt-text;
         }
         
-    }//closes bdev
+    .bdev, .fdev, .web-ui{
+      background: @teal;
+      border: 4px solid @navy;
+      border-radius: 10px;
+      width: 90%;
+      max-width: 500px;
+      margin: 2% auto;
+      .flexbox(flex, center, center, column);
+        
+      @media @tablet{
+        width: 45%;
+        height: 360px;
+      }
+        
+    p{
+     padding: 2%;
+     margin: 2%;
+     border: 2px solid @lt-text;
+     border-radius: 5px;
+     background: @navy;
+     color: @lt-text;
+     font-size: 1.5rem;
+
+     @media @desktop{
+         font-size: 2rem;
+     }
+     }
+    .pics{        
+      max-width: 130px;
+      height: auto;
+      max-height: 130px;
+      padding: 3%;
+      margin: 2%;
+      border: 2px solid @navy;
+      border-radius: 10px;
+      background: @lt-text;            
+    }//closes pics
+    .names{
+        font-size: 2rem;
+        color: @lt-text;
+        @media @desktop{
+            font-size: 2.8rem;
+        }
+    }
+  }//closes bdev...
 }//closes backend
-
-.front-end{
-    // border: 1px solid green;
-    width: 90%;
-    margin: 2% auto;
-
-    p{
-        padding: 2%;
-        margin: 2%;
-        border: 2px solid @lt-text;
-        background: @navy;
-        color: @lt-text;
-        font-size: 1.5rem;
-    }
-
-    .fdev{
-        border: 2px solid @navy;
-        width: 90%;
-        margin: 2% auto;
-        .flexbox(flex, center, center, column);
-
-        h3{
-            color: @lt-text;
-        }
-    }//closes fdev
-}//closes front-end
-
-.ui-dev{
-    // border: 1px solid red;
-    width: 90%;
-    margin: 2% auto;
-
-
-    p{
-        padding: 2%;
-        margin: 2%;
-        border: 2px solid @lt-text;
-        background: @navy;
-        color: @lt-text;
-        font-size: 1.5rem;
-    }
-
-    .web-ui{
-        // border: 2px solid @navy;
-        width: 90%;
-        margin: 2% auto;
-        .flexbox(flex, center, center, column); 
-
-        h3{
-            color: @lt-text;
-        }
-    }
-     
-}//closes ui-dev
-
-.pics{        
-    max-width: 50%;
-    height: auto;
-    padding: 3%;
-    margin: 2%;
-    border: 2px solid @navy;
-    border-radius: 10px;
-    background: @lt-text;
-    
-}//closes pics
-
-.bdev, .fdev, .web-ui{
-    background: @teal;
-    border: 2px solid @navy;
-}
-.names{
-    font-size: 2rem;
-    color: @lt-text;
-}
-

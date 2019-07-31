@@ -495,6 +495,12 @@ h2 {
 }
 .contact .contact-top .list h3 {
   text-decoration: grey underline;
+  color: white;
+}
+@media (min-width:1000px) {
+  .contact .contact-top .list h3 {
+    color: #222E50;
+  }
 }
 .contact .contact-top .list .contact-link a {
   color: white;
@@ -530,95 +536,134 @@ h2 {
   box-shadow: 5px 10px 5px #222E50;
   margin: 8%, 0;
 }
-.backend {
-  width: 90%;
-  margin: 2% auto;
-}
-.backend p {
-  padding: 2%;
-  margin: 2%;
-  border: 2px solid white;
-  background: #222E50;
-  color: white;
-  font-size: 1.5rem;
-}
-.backend .bdev {
-  border: 2px solid #222E50;
-  width: 90%;
-  margin: 2% auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.backend .bdev h3 {
-  color: white;
-}
-.front-end {
-  width: 90%;
-  margin: 2% auto;
-}
-.front-end p {
-  padding: 2%;
-  margin: 2%;
-  border: 2px solid white;
-  background: #222E50;
-  color: white;
-  font-size: 1.5rem;
-}
-.front-end .fdev {
-  border: 2px solid #222E50;
-  width: 90%;
-  margin: 2% auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.front-end .fdev h3 {
-  color: white;
-}
+.backend,
+.front-end,
 .ui-dev {
   width: 90%;
   margin: 2% auto;
 }
-.ui-dev p {
-  padding: 2%;
-  margin: 2%;
-  border: 2px solid white;
-  background: #222E50;
-  color: white;
-  font-size: 1.5rem;
+@media (min-width:800px) {
+  .backend,
+  .front-end,
+  .ui-dev {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
+.backend h3,
+.front-end h3,
+.ui-dev h3 {
+  color: white;
+}
+.backend .bdev,
+.front-end .bdev,
+.ui-dev .bdev,
+.backend .fdev,
+.front-end .fdev,
+.ui-dev .fdev,
+.backend .web-ui,
+.front-end .web-ui,
 .ui-dev .web-ui {
+  background: #007991;
+  border: 4px solid #222E50;
+  border-radius: 10px;
   width: 90%;
+  max-width: 500px;
   margin: 2% auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.ui-dev .web-ui h3 {
-  color: white;
+@media (min-width:800px) {
+  .backend .bdev,
+  .front-end .bdev,
+  .ui-dev .bdev,
+  .backend .fdev,
+  .front-end .fdev,
+  .ui-dev .fdev,
+  .backend .web-ui,
+  .front-end .web-ui,
+  .ui-dev .web-ui {
+    width: 45%;
+    height: 360px;
+  }
 }
-.pics {
-  max-width: 50%;
+.backend .bdev p,
+.front-end .bdev p,
+.ui-dev .bdev p,
+.backend .fdev p,
+.front-end .fdev p,
+.ui-dev .fdev p,
+.backend .web-ui p,
+.front-end .web-ui p,
+.ui-dev .web-ui p {
+  padding: 2%;
+  margin: 2%;
+  border: 2px solid white;
+  border-radius: 5px;
+  background: #222E50;
+  color: white;
+  font-size: 1.5rem;
+}
+@media (min-width:1000px) {
+  .backend .bdev p,
+  .front-end .bdev p,
+  .ui-dev .bdev p,
+  .backend .fdev p,
+  .front-end .fdev p,
+  .ui-dev .fdev p,
+  .backend .web-ui p,
+  .front-end .web-ui p,
+  .ui-dev .web-ui p {
+    font-size: 2rem;
+  }
+}
+.backend .bdev .pics,
+.front-end .bdev .pics,
+.ui-dev .bdev .pics,
+.backend .fdev .pics,
+.front-end .fdev .pics,
+.ui-dev .fdev .pics,
+.backend .web-ui .pics,
+.front-end .web-ui .pics,
+.ui-dev .web-ui .pics {
+  max-width: 130px;
   height: auto;
+  max-height: 130px;
   padding: 3%;
   margin: 2%;
   border: 2px solid #222E50;
   border-radius: 10px;
   background: white;
 }
-.bdev,
-.fdev,
-.web-ui {
-  background: #007991;
-  border: 2px solid #222E50;
-}
-.names {
+.backend .bdev .names,
+.front-end .bdev .names,
+.ui-dev .bdev .names,
+.backend .fdev .names,
+.front-end .fdev .names,
+.ui-dev .fdev .names,
+.backend .web-ui .names,
+.front-end .web-ui .names,
+.ui-dev .web-ui .names {
   font-size: 2rem;
   color: white;
+}
+@media (min-width:1000px) {
+  .backend .bdev .names,
+  .front-end .bdev .names,
+  .ui-dev .bdev .names,
+  .backend .fdev .names,
+  .front-end .fdev .names,
+  .ui-dev .fdev .names,
+  .backend .web-ui .names,
+  .front-end .web-ui .names,
+  .ui-dev .web-ui .names {
+    font-size: 2.8rem;
+  }
 }
 footer {
   text-align: center;
