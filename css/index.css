@@ -531,9 +531,8 @@ h2 {
   margin: 8%, 0;
 }
 .backend {
-  border: 1px solid red;
   width: 90%;
-  margin: 0 auto;
+  margin: 2% auto;
 }
 .backend p {
   padding: 2%;
@@ -544,18 +543,20 @@ h2 {
   font-size: 1.5rem;
 }
 .backend .bdev {
-  border: 1px solid blue;
+  border: 2px solid #222E50;
   width: 90%;
-  margin: 0 auto;
+  margin: 2% auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+.backend .bdev h3 {
+  color: white;
+}
 .front-end {
-  border: 1px solid green;
   width: 90%;
-  margin: 0 auto;
+  margin: 2% auto;
 }
 .front-end p {
   padding: 2%;
@@ -566,17 +567,20 @@ h2 {
   font-size: 1.5rem;
 }
 .front-end .fdev {
-  border: 1px solid orange;
+  border: 2px solid #222E50;
   width: 90%;
-  margin: 0 auto;
+  margin: 2% auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+.front-end .fdev h3 {
+  color: white;
+}
 .ui-dev {
   width: 90%;
-  margin: 0 auto;
+  margin: 2% auto;
 }
 .ui-dev p {
   padding: 2%;
@@ -587,26 +591,34 @@ h2 {
   font-size: 1.5rem;
 }
 .ui-dev .web-ui {
-  border: 1px solid #222E50;
   width: 90%;
-  margin: 0 auto;
+  margin: 2% auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.ui-dev .web-ui .names {
-  font-size: 2rem;
+.ui-dev .web-ui h3 {
+  color: white;
 }
-.ui-dev .christine img {
-  transform: rotate(90deg);
+.pics {
   max-width: 50%;
   height: auto;
-  padding: 4%;
+  padding: 3%;
   margin: 2%;
   border: 2px solid #222E50;
   border-radius: 10px;
   background: white;
+}
+.bdev,
+.fdev,
+.web-ui {
+  background: #007991;
+  border: 2px solid #222E50;
+}
+.names {
+  font-size: 2rem;
+  color: white;
 }
 footer {
   text-align: center;

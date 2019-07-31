@@ -1,7 +1,7 @@
 .backend{
-    border: 1px solid red;
+    // border: 1px solid red;
     width: 90%;
-    margin: 0 auto;
+    margin: 2% auto;
 
     p{
         padding: 2%;
@@ -11,19 +11,25 @@
         color: @lt-text;
         font-size: 1.5rem;
     }
+    
 
     .bdev{
-        border: 1px solid blue;
+        border: 2px solid @navy;
         width: 90%;
-        margin: 0 auto;
+        margin: 2% auto;
         .flexbox(flex, center, center, column);
+
+        h3{
+            color: @lt-text;
+        }
+        
     }//closes bdev
 }//closes backend
 
 .front-end{
-    border: 1px solid green;
+    // border: 1px solid green;
     width: 90%;
-    margin: 0 auto;
+    margin: 2% auto;
 
     p{
         padding: 2%;
@@ -35,17 +41,22 @@
     }
 
     .fdev{
-        border: 1px solid orange;
+        border: 2px solid @navy;
         width: 90%;
-        margin: 0 auto;
+        margin: 2% auto;
         .flexbox(flex, center, center, column);
+
+        h3{
+            color: @lt-text;
+        }
     }//closes fdev
 }//closes front-end
 
 .ui-dev{
     // border: 1px solid red;
     width: 90%;
-    margin: 0 auto;
+    margin: 2% auto;
+
 
     p{
         padding: 2%;
@@ -57,25 +68,35 @@
     }
 
     .web-ui{
-        border: 1px solid @navy;
+        // border: 2px solid @navy;
         width: 90%;
-        margin: 0 auto;
+        margin: 2% auto;
         .flexbox(flex, center, center, column); 
-        
-        .names{
-            font-size: 2rem;
+
+        h3{
+            color: @lt-text;
         }
     }
-    .christine img{
-        transform: rotate(90deg);
-        max-width: 50%;
-        height: auto;
-        padding: 4%;
-        margin: 2%;
-        border: 2px solid @navy;
-        border-radius: 10px;
-        background: @lt-text;
-        
-  }//closes christine
-  
+     
 }//closes ui-dev
+
+.pics{        
+    max-width: 50%;
+    height: auto;
+    padding: 3%;
+    margin: 2%;
+    border: 2px solid @navy;
+    border-radius: 10px;
+    background: @lt-text;
+    
+}//closes pics
+
+.bdev, .fdev, .web-ui{
+    background: @teal;
+    border: 2px solid @navy;
+}
+.names{
+    font-size: 2rem;
+    color: @lt-text;
+}
+
