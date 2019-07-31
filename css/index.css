@@ -415,6 +415,7 @@ h2 {
   .features {
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
   }
 }
 .features h3 {
