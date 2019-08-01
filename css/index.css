@@ -263,7 +263,17 @@ header {
   border-bottom: 2px solid #222E50;
   padding: 15%;
   margin: 0 auto;
-  background: #B9D6F2;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cedbe9+0,aac5de+15,3a84c3+35,3a84c3+35,6199c7+50,419ad6+59,4bb8f0+71,3a8bc2+84,26558b+100 */
+  background: #cedbe9;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #cedbe9 0%, #aac5de 15%, #3a84c3 35%, #3a84c3 35%, #6199c7 50%, #419ad6 59%, #4bb8f0 71%, #3a8bc2 84%, #26558b 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #cedbe9 0%, #aac5de 15%, #3a84c3 35%, #3a84c3 35%, #6199c7 50%, #419ad6 59%, #4bb8f0 71%, #3a8bc2 84%, #26558b 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #cedbe9 0%, #aac5de 15%, #3a84c3 35%, #3a84c3 35%, #6199c7 50%, #419ad6 59%, #4bb8f0 71%, #3a8bc2 84%, #26558b 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cedbe9', endColorstr='#26558b', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
 }
 @media (min-width:1000px) {
   header {
@@ -279,21 +289,40 @@ header .header {
 header h1 {
   text-align: center;
   padding-bottom: 4%;
+  font-family: 'Acme', sans-serif;
+  font-size: 5rem;
+}
+@media (min-width:1000px) {
+  header h1 {
+    font-size: 7rem;
+  }
 }
 header p {
   text-align: center;
+  padding: 4%;
+  font-size: 2.5rem;
 }
-header button {
+@media (min-width:1000px) {
+  header p {
+    font-size: 4rem;
+  }
+}
+header a .trial {
   color: white;
   background: #B80C09;
   border: 2px solid #222E50;
   padding: 2% 6%;
   font-size: 2rem;
+  width: 200px;
 }
-header button:hover {
+header a .trial:hover {
   transform: scale(1.2);
   box-shadow: 5px 10px 5px #222E50;
   margin: 8%, 0;
+}
+header .head-logo {
+  width: 40%;
+  margin-top: 10%;
 }
 .info-cards {
   display: flex;
@@ -493,6 +522,7 @@ h2 {
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 .contact .contact-top .list h3 {
   text-decoration: grey underline;
@@ -512,6 +542,21 @@ h2 {
     color: #222E50;
     font-size: 2rem;
   }
+}
+.contact .contact-top .list .icon {
+  width: 50px;
+  height: 50px;
+}
+@media (min-width:1000px) {
+  .contact .contact-top .list .icon {
+    width: 75px;
+    height: 75px;
+  }
+}
+.contact .contact-top .list .icon:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 10px 5px #222E50;
+  margin: 8%, 0;
 }
 .contact .subscription {
   text-align: center;

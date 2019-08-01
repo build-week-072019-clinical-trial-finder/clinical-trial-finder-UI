@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Work+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Acme|PT+Sans+Narrow|Work+Sans&display=swap" rel="stylesheet">
     <link rel="about page" href="about.html">
     <link rel="stylesheet" href="css/index.css">
     <title>Clinical Trial Finder</title>
@@ -35,13 +35,14 @@
     <header>
       <div class='header'>
         <h1>Clinical Trial Finder</h1>
-          <p>Helping patients connect with potentially life-saving cutting-edge experimental treatments</p>
-          <button>Find Your Trial</button>
+          <p>Helping patients connect with potentially life-saving cutting-edge emperical treatments</p>
+          <a href="https://clinical-trial-finder-app.netlify.com"><button class='trial'>Find Your Trial</button></a>
+          <img class='head-logo' src="images/logo-white.png" alt="White Clinical Trial Logo">
       </div>
     </header>
 
         <!--INFO CARDS-->
-
+<h2>Introduction</h2>
     <section class='info-cards'>
       <div class='card1 cards'>
         <img src="images/void.png" alt="Illustration of preson staring into void">
@@ -53,13 +54,13 @@
       </div><!--closes card2-->
       <div class='card3 cards'>
         <img src="images/selection.png" alt="img goes here">
-        <p>As Lambda students we have developed a solution that increases information transparency and helps patients (and family members) evaluate potentially life-saving clinical trials. In the process, recruiting enough patients for the study to make.</p>
+        <p>As Lambda students we have developed a solution that increases information transparency and helps patients (and family members) evaluate potentially life-saving clinical trials. In the process, recruiting enough participants for the study to make.</p>
       </div><!--closes card3-->
     </section>
 
         <!--Success Stories-->
         <hr>
-        <h2 class='brown' id="success">Success Stories</h2>
+         <h2 class='brown' id="success">Success Stories</h2>
     <section class='success-stories'>
       
         <div class='stories'>
@@ -119,7 +120,7 @@
           <img src="images/selection.png" alt="illustration of person being selected">
         </div>
        <div class='feat-text'>
-         <p>Get notified immediately upon selection for the study. Using our app stream lines the process in an easily digestible way.</p>
+         <p>Get notified immediately upon selection for a study. Using our app stream lines the process in an easily digestible way. You can add studies to your watchlist so you can reaccess them again easily.</p>
        </div><!--closes feat-text-->
        </div><!--closes feat-contain-->
       </div><!--closes feature3-->          
@@ -136,6 +137,8 @@
           </div><!--closes feat-contain-->
         </div> <!--closes feature4-->
     </section> <!--closes features-->
+
+    
 
 <!--CONTACT/FOOTER-->
 
@@ -159,11 +162,11 @@
             </nav>
         </div> <!--close list-->  
         <div class='list'>
-          <h3>Social Media</h3>
             <nav class='links contact-link'>
-              <a href="#">gitHub</a>
-              <a href="#">Twitter</a>
-              <a href="#">Facebook</a>      
+              <a href="#"><img class='icon'src='images/facebook.png'></a>
+              <a href="#"><img class='icon' src='images/twitter.png'></a>
+              <a href="#"><img class='icon' src='images/insta.png'><a>
+              <a href="#"><img class='icon' src='images/linkedin.png'></a>      
             </nav>
         </div>  <!--closes list-->         
       </div> <!--Closes contact-top -->
@@ -193,18 +196,8 @@
       </div>
     </footer>
    </div>    <!--Closes container div-->
+  
+   
   </body>
 
 </html>
-
-
-
-MVP Feature List: 
-- Visualize Active Clinical Trials on an interactive website
-- Filter by intervention (disease area) 
-
-Stretch Goals: 
-- Assign completion probability to each active trial (using historical trials as train data)
-- Allow users to add trials to a 'watch list' 
-- Allow users to filter based on eligibility criteria (will require extensive feature extraction)  
-- Create interactive webpage(s) to host a data storytelling project exploring characteristics of successful trials (and more) 
