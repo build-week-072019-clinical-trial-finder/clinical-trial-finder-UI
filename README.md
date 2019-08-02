@@ -1,21 +1,12 @@
 # clinical-trial-finder-UI
 UI repo for Clinical Trial Finder
 ## MVP
-### Monday
-- **User Interface Developer**
-    1. Marketing landing page scaffolded with common layout structure implemented
-        - see below
-    2. Mobile screen width features starting to come into play.
-        - mobile first design was used, tablet and desktop responsive.
-    3. Lorem ipsum can be used to fill in your content on your pages. 
-        - filler text was used.
-       
-- **All Projects**
-    1. All Project's file structures scaffolded and project architecture decided.
-        - Over the weekend palette, fonts and basic layout design was decided.
-        - Basic HTML and CSS layout for home page was complete.
-    2. Each project is deployed to Netlify or Heroku by end of day
-        - My project is deployed here: (https://clinical-trial-finder.netlify.com/)
+    - My project is deployed here: (https://clinical-trial-finder.netlify.com/)
+    - Product Canvas (https://trello.com/b/ANZp9XbL/clinical-trial)
+
+    The drug development process is in crisis. Returns on R&D have been decreasing for decades and fewer drugs are reaching the market. One contributing factor to this crisis is the lack of information transparency in the clinical trial market (a key part of the drug development process).
+    An astounding 80% of clinical trials fail to meet recruitment timelines and 1 in 4 cancer research trials falter due to low patient recruitment. Many patients do not even know these trials exist.
+    As Lambda students we have developed a solution that increases information transparency and helps patients (and family members) evaluate potentially life-saving clinical trials. In the process, recruiting enough participants for the study to make.
 
 ### Tuesday
 1. ****Marketing site including all pages fully responsive to Mobile and Desktop screen widths
@@ -47,6 +38,9 @@ UI repo for Clinical Trial Finder
     - Researched how to make my 'find your trial' button clickable, and hover effects, and color gradients.
     - I added social media icons and a subcribe to newsletter input box.
     - I used LESS for my styles.
+    - I created a hover effect over the introduction with box-shadowing.
+    - hover effects on buttons and links.
+    - Links at top of page take you to that section of the site.
 
 ## Responsiveness
     - I used mobile first (500px or less) in the design and site is fully responsive to tablet @ 800px and desktop @ 1000px. 
