@@ -8,24 +8,6 @@ UI repo for Clinical Trial Finder
     An astounding 80% of clinical trials fail to meet recruitment timelines and 1 in 4 cancer research trials falter due to low patient recruitment. Many patients do not even know these trials exist.
     As Lambda students we have developed a solution that increases information transparency and helps patients (and family members) evaluate potentially life-saving clinical trials. In the process, recruiting enough participants for the study to make.
 
-### Tuesday
-1. ****Marketing site including all pages fully responsive to Mobile and Desktop screen widths
-- All pages laid out all that's left for each page are styling tweaks
-    - Mobile first design was used.
-    - Home page fully responsive @500, 800, and 1000px for breaking points.
-    - About page HTML and basic styling was complete and links working.
-
-2. ****Marketing "Login" call to action links user to the Deployed React app login screen
-    - link wasn't ready on Tuesday but was added on wednesday to login link and finally to 'find your trial' button on Friday.
-
-### Wednesday
-1.  Marketing site replace placeholder copy with description of product. Be creative here. Really try and describe your project, your project's features and of course have a cool "About Us" page with relevant copy that describes your team members and their roles.
-
-    - most photos added to about page and some copy started.
-
-2. All marketing site pages fully responsive and built out, may still need to polish up styling and layout.
-
-    - All pages fully responsive @ 500, 800, and 1000px for breaking points. Mobile first design was used.
 
 ## Team Contributions
     - I participated in the morning and afternoon standup meeting, being vocal about needs.
